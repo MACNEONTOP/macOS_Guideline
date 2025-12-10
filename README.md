@@ -1,5 +1,7 @@
 # macOS_Guideline
 
+[Read in English](#english-version)
+
 - macOS 기반 시스템에서 정보 유출 방지 및 보안 가이드라인을 정리한 저장소입니다.
 
 - macOS의 보안 강화를 위한 점검 방법, 로그 검사 도구 등을 함께 제공합니다.
@@ -24,3 +26,32 @@
 # 활용 예시
 - macOS 시스템을 대상으로 보안 점검이 필요할 때
 - 정보유출 의심 로그가 발생했을 때
+
+---
+
+# macOS_Guideline <a name="english-version"></a>
+
+- A repository summarizing information leakage prevention and security guidelines for macOS-based systems.
+
+- Provides inspection methods and log checking tools to enhance macOS security.
+
+
+# Introduction
+
+This repository aims to:
+- Analyze potential information leakage scenarios in macOS environments.
+- Provide security inspection and response procedures utilizing AUL (Apple Unified Logging System).
+- Provide usable log inspection scripts.
+
+
+
+# Structure
+### macOS Information Leakage Guideline.pdf
+- The official guideline document summarizing macOS system security settings, risk factor analysis, and response methods.
+
+### mac_log_checker
+- A script that analyzes macOS logs to identify suspicious activities.
+
+# Usage Examples
+- When a security inspection is required for macOS systems.
+- When suspicious information leakage logs occur.
